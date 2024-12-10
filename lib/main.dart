@@ -44,7 +44,7 @@ class _MyHomePageState extends State<MyHomePage> {
     _focusNode.dispose(); // Dispose of the FocusNode
     super.dispose();
   }
-  
+
   // Function to get the audio URL for a word
   Future<void> getAudioUrl() async {
     final word = wordPool[(wordPool.length * (DateTime.now().millisecondsSinceEpoch % 1000) ~/ 1000) % wordPool.length];
@@ -52,7 +52,8 @@ class _MyHomePageState extends State<MyHomePage> {
       selectedWord = word;
     });
 
-    final url = Uri.parse('http://localhost:3000/api/v1/speech/generate');
+    //final url = Uri.parse('http://localhost:3000/api/v1/speech/generate');
+    final url = Uri.parse('https://api.murf.ai/v1/speech/generate');
 
     final response = await http.post(
       url,

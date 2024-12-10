@@ -69817,7 +69817,7 @@ ou(){var s=0,r=A.J(t.H),q=this,p,o,n,m,l,k
 var $async$ou=A.K(function(a,b){if(a===1)return A.G(b,r)
 while(true)switch(s){case 0:k=B.Dq[B.h.bh(B.h.dH(10*B.h.bh(Date.now(),1000),1000),10)]
 q.aj(new A.aaj(q,k))
-p=A.fz("http://localhost:3000/api/v1/speech/generate")
+p=A.fz("https://api.murf.ai/v1/speech/generate")
 o=t.N
 n=A.aw(["content-type","application/json","accept","application/json","api-key","ap2_553f7996-b9b2-40ec-a412-ff812b10031b"],o,o)
 m=t.z
