@@ -88,6 +88,11 @@ class _MyHomePageState extends State<MyHomePage> {
 
       // Play the audio
       await _audioPlayer.play(UrlSource(audioUrl));
+
+      _focusNode.requestFocus();
+      setState(() {
+        _controller.clear();
+      });
     } else {
       print('Request failed with status: ${response.statusCode}');
     }
