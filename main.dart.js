@@ -69864,7 +69864,7 @@ $0(){this.a.f=this.b},
 $S:0}
 A.aai.prototype={
 $0(){var s=this.a
-if(s.e.toUpperCase()===s.d)s.r="Correct!"
+if(s.e.toUpperCase()===s.d.toUpperCase())s.r="Correct!"
 else s.r="Incorrect, try again!"},
 $S:0}
 A.aam.prototype={

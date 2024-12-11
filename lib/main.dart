@@ -100,7 +100,7 @@ class _MyHomePageState extends State<MyHomePage> {
   // Function to check the user's input
   void checkSpelling() {
     setState(() {
-      if (inputWord.toUpperCase() == selectedWord) {
+      if (inputWord.toUpperCase() == selectedWord.toUpperCase()) {
         feedback = 'Correct!';
       } else {
         feedback = 'Incorrect, try again!';
