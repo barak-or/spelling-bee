@@ -49,7 +49,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Future<void> getAudioUrl() async {
     final word = wordPool[(wordPool.length * (DateTime.now().millisecondsSinceEpoch % 1000) ~/ 1000) % wordPool.length];
     setState(() {
-      selectedWord = word;
+      selectedWord = word.toUpperCase();
     });
 
     final url = Uri.parse('https://spelling-bee-backend-prod-7d78cdbb39a3.herokuapp.com/api/v1/speech/generate');

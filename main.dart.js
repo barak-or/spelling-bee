@@ -69857,7 +69857,7 @@ l.push(A.h5(n,20,n))
 l.push(A.Dn(A.e5("Clear All",n,n,n,n,n,n),o.gaea()))
 return new A.w4(new A.rC(m,new A.LS(n,n,1/0,56),n),new A.e1(B.B4,A.afx(l,B.bB,B.ip,B.ir),n),n)}}
 A.aaj.prototype={
-$0(){this.a.d=this.b},
+$0(){this.a.d=this.b.toUpperCase()},
 $S:0}
 A.aak.prototype={
 $0(){this.a.f=this.b},
