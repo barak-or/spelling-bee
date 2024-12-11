@@ -52,8 +52,8 @@ class _MyHomePageState extends State<MyHomePage> {
       selectedWord = word;
     });
 
-    //final url = Uri.parse('http://localhost:3000/api/v1/speech/generate');
-    final url = Uri.parse('https://api.murf.ai/v1/speech/generate');
+    final url = Uri.parse('https://spelling-bee-backend-prod-7d78cdbb39a3.herokuapp.com/api/v1/speech/generate');
+    //final url = Uri.parse('https://api.murf.ai/v1/speech/generate');
 
     final response = await http.post(
       url,
