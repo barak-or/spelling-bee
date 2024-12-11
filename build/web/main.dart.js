@@ -38776,7 +38776,7 @@ A.ql.prototype={
 F(){return"_CornerId."+this.b}}
 A.jp.prototype={}
 A.p4.prototype={
-jl(){var s,r,q=this,p=A.azQ(B.Dr,new A.a_v(q,q.b.gaX().S(0,q.a.gaX()))),o=q.a
+jl(){var s,r,q=this,p=A.azQ(B.Dq,new A.a_v(q,q.b.gaX().S(0,q.a.gaX()))),o=q.a
 o.toString
 s=p.a
 o=q.n7(o,s)
@@ -69815,7 +69815,7 @@ this.x.l()
 this.aA()},
 ou(){var s=0,r=A.J(t.H),q=this,p,o,n,m,l,k
 var $async$ou=A.K(function(a,b){if(a===1)return A.G(b,r)
-while(true)switch(s){case 0:k=B.Dq[B.h.bh(B.h.dH(10*B.h.bh(Date.now(),1000),1000),10)]
+while(true)switch(s){case 0:k=B.Dr[B.h.bh(B.h.dH(150*B.h.bh(Date.now(),1000),1000),150)]
 q.aj(new A.aaj(q,k))
 p=A.fz("https://spelling-bee-backend-prod-7d78cdbb39a3.herokuapp.com/api/v1/speech/generate")
 o=t.N
@@ -73750,7 +73750,6 @@ B.Qz=A.b(s([]),t.V)
 B.Dd=A.b(s([]),t.t)
 B.lv=A.b(s([]),t.ee)
 B.Dp=A.b(s([]),t.XS)
-B.Dq=A.b(s(["TEST","CONGRATULATIONS","EXAMPLE","FLUTTER","PROGRAMMING","SPAGHETTI","DEVELOPER","MOBILE","APPLICATION","PRACTICE"]),t.s)
 B.wZ=new A.ql(0,"topLeft")
 B.x1=new A.ql(3,"bottomRight")
 B.Pf=new A.jp(B.wZ,B.x1)
@@ -73759,7 +73758,7 @@ B.x_=new A.ql(1,"topRight")
 B.x0=new A.ql(2,"bottomLeft")
 B.Pg=new A.jp(B.x_,B.x0)
 B.Ph=new A.jp(B.x0,B.x_)
-B.Dr=A.b(s([B.Pf,B.Pi,B.Pg,B.Ph]),A.ai("y<jp>"))
+B.Dq=A.b(s([B.Pf,B.Pi,B.Pg,B.Ph]),A.ai("y<jp>"))
 B.cI=new A.eQ(0,"controlModifier")
 B.cJ=new A.eQ(1,"shiftModifier")
 B.cK=new A.eQ(2,"altModifier")
@@ -73770,6 +73769,7 @@ B.iw=new A.eQ(6,"scrollLockModifier")
 B.ix=new A.eQ(7,"functionModifier")
 B.qA=new A.eQ(8,"symbolModifier")
 B.lw=A.b(s([B.cI,B.cJ,B.cK,B.cL,B.iu,B.iv,B.iw,B.ix,B.qA]),A.ai("y<eQ>"))
+B.Dr=A.b(s(["Motion","Terror","murky","Harvest","quill","patio","braids","Castle","costume","wagon","wrench","indeed","gerbils","Village","Critters","stifle","dimple","brother","mistake","Harbor","reunion","balloon","promise","uproar","wednesday","exactly","severe","twinkle","snicker","stumble","smock","natural","childhood","nonsense","Bandits","Champion","superb","tinge","outcome","Groves","ghostly","convince","biology","captive","streamers","speckled","Hopscotch","jumbled","naughty","dodgy","ballerina","cubism","interact","jerky","diablo","ablaze","pivot","karate","bowler","phantom","Locust","Council","ointment","Gothic","midair","hurricane","Laurel","lollygag","vermin","argument","wreckage","dolphin","infinite","bittersweet","fend","disguise","membrane","Magnolia","sensation","daredevil","bypass","oysters","military","gasket","biceps","voyage","advantage","Applause","nostrils","television","mattress","soldier","trousers","albums","muscles","diploma","harpoons","rampage","levitate","spritzed","clientele","anecdotes","haberdasher","filigree","catapults","embroiled","burro","guava","crescendo","ocelot","onyx","demigod","trek","teriyaki","contribute","hocus-Pocus","narwhal","melancholy","merfolk","gargoyles","Pavilions","skeptical","pallet","ogres","goatee","grotesque","threshold","flamboyant","famine","linoleum","pesos","rogue","amnesia","fruition","bygone","committee","mirage","newfangled","surcharge","marksmanship","column","plaque","rebuke","adversity","symphony","aquamarine","altar","stylistic","flailed","errands"]),t.s)
 B.yP=new A.od(0,"auto")
 B.yQ=new A.od(1,"full")
 B.yR=new A.od(2,"chromium")
