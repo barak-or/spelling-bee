@@ -100,6 +100,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   Future<void> repeatAudio() async {
     await _audioPlayer.play(UrlSource(audioUrl));
+    _focusNode.requestFocus();
   }
   
   // Function to check the user's input
